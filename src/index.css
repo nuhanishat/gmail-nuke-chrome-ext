@@ -1,0 +1,54 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  font-family: "Roboto", sans-serif ;
+  letter-spacing: 0.02em;
+  border-radius: 8px;
+}
+
+/* Whole popup column */
+.popup {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  /* your popup width */
+  /* height: 800px; */
+  /* fixed popup height so inner area can scroll */
+  box-sizing: border-box;
+  padding: 12px;
+  /* align-items: center; */
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+/* Top controls (stay fixed) */
+.header {
+  flex: 0 0 auto;
+}
+
+/* Scrollable preview panel area */
+.scroll-area {
+  flex: 1 1 auto;
+  /* take the remaining space */
+  overflow-y: auto;
+  /* only this area scrolls */
+  margin-top: 8px;
+  padding-right: 4px;
+  /* room for scrollbar */
+  border-top: 1px solid #eee;
+}
+
+/* Optional: make the scrollbar a bit nicer */
+.scroll-area::-webkit-scrollbar {
+  width: 8px;
+}
+
+.scroll-area::-webkit-scrollbar-thumb {
+  background: #ddd;
+  border-radius: 8px;
+}

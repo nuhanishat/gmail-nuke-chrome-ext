@@ -1,0 +1,38 @@
+.email-card {
+    border-radius: 10px;
+    padding: 10px;
+    margin: 8px 0;
+    background: #dee7fc;
+}
+
+.email-row {
+    display: flex;
+    gap: 6px;
+    font-size: 12px;
+    margin-bottom: 2px;
+}
+
+.email-label {
+    color: #6b7280;
+    /* gray-500 */
+    min-width: 36px;
+}
+
+.email-value {
+    color: #111827;
+    /* gray-900 */
+    overflow-wrap: anywhere;
+}
+
+.email-subject {
+    margin-top: 6px;
+    font-weight: 600;
+    color: #111827;
+    font-size: 12px;
+}
+
+.email-id {
+    margin-top: 4px;
+    font-size: 11px;
+    color: #6b7280;
+}

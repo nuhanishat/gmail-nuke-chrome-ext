@@ -1,0 +1,38 @@
+/* Base button */
+.actbtn {
+    display: inline-block;
+    padding: 12px 20px;
+    border-radius: 25px;
+    font-family: 'Roboto', Courier;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+    border: none;
+    transition: background 0.2s ease, opacity 0.2s ease;
+}
+
+/* Default (Preview) */
+.actbtn-default {
+    background: #4285F4;
+    color: #fff;
+}
+
+.actbtn-default:hover:not(.abtn-disabled) {
+    background: #0041C2;
+}
+
+/* Danger (Trash) */
+.actbtn-danger {
+    background: #EA4335;
+    color: #fff;
+}
+
+.actbtn-danger:hover:not(.abtn-disabled) {
+    background: #c0392b;
+}
+
+/* Disabled */
+.actbtn-disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}

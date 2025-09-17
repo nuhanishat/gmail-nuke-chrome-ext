@@ -1,0 +1,14 @@
+{
+    "name" : "Gmail Nuke",
+    "description" : "Enter a Gmail query, preview matches, and move them to Trash.",
+    "version" : "1.0.0",
+    "manifest_version" : 3,
+    "action" : { "default_popup" : "index.html", "default_title": "Gmail Nuke"},
+    "permissions" : [
+        "identity", 
+        "scripting",
+        "activeTab",
+        "tabs",
+        "storage"],
+    "host_permissions" : ["https://www.googleapis.com/*"]
+}

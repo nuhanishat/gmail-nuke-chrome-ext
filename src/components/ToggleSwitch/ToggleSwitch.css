@@ -1,0 +1,73 @@
+:root {
+    --label-width: 160px;
+    /* adjust to your preference */ 
+}
+
+.ts-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 8px 0;
+}
+
+.ts-label {
+    flex: 0 0 var(--label-width);
+    font-size: 14px;
+    color: #444;
+    text-align: left;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.ts-switch {
+    margin-left: auto;
+    position: relative;
+    width: 44px;
+    height: 24px;
+    border: 1px solid #ddd;
+    border-radius: 999px;
+    background: #e6e6e6;
+    cursor: pointer;
+    padding: 0;
+    outline: none;
+    transition: background 0.15s ease, border-color 0.15s ease;
+}
+
+.ts-handle {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 20px;
+    height: 20px;
+    background: #fff ;
+    border-radius: 999px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0, 2);
+    transition: left 0.15s ease;
+}
+
+.ts-on {
+    background: #34A853;
+    border-color: #4caf50;
+}
+
+.ts-on .ts-handle {
+    left: 22px;
+    /* on position */
+}
+
+/* Off state */
+.ts-off {
+    background: #e6e6e6;
+}
+
+/* Disabled */
+.ts-disabled {
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+/* Narrow popups */
+@media (max-width: 340px) {
+    .ts-label {
+        flex-basis: 90px;
+    } }

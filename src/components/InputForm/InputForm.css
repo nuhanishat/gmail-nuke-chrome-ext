@@ -1,0 +1,57 @@
+:root {
+    --label-width: 120px;
+}
+
+.if-row {
+    display: flex;
+    align-items: center;
+    margin: 2px 0;
+
+}
+
+.if-label {
+    flex: 0 0 var(--label-width);
+    color: #444;
+    font-size: 14px;
+    text-align: left;
+    font-weight: 500;
+    padding-left: 3px;
+}
+
+.if-req {
+    color: #e74c3c;
+    margin-left: 4px;
+}
+
+.if-inputWrap {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 14px;
+}
+
+.if-input {
+    font-family: "Roboto",  sans-serif;
+    flex: 1;
+    padding: 8px 5px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 10px;
+}
+
+.if-input:disabled {
+    background: #f7f7f7;
+    color: #999;
+}
+
+.if-suffix {
+    font-size: 10px;
+    color: #666;
+}
+
+@media (max-width:340px) {
+    .if-label {
+        flex-basis: 120px;
+    }
+}

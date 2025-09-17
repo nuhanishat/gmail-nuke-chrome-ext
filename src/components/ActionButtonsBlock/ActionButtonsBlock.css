@@ -1,0 +1,14 @@
+.form-actions {
+    margin-top: 12px;
+    /* aligns with input/toggle column */
+    display: flex;
+    gap: 10px; }
+
+/* If you want buttons to stretch full width of the input column */
+.form-actions .actbtn {
+    min-width: 162px;
+    /* optional: consistent button size */ }
+
+.trash-msg {
+    width:fit-content;
+}

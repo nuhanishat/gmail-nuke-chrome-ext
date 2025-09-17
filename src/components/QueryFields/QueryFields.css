@@ -1,0 +1,40 @@
+.query-display{
+    height: 50px;
+    text-align: center;
+    align-items: center;
+}
+
+.input-fields {
+    margin-bottom: 10px;
+    padding: 10px;
+    padding-right: 5px;
+    background-color: #f2f4f7;
+    border-radius: 10px;
+    
+    
+}
+
+.toggle-switches {
+    margin-bottom: 10px;
+    padding: 5px 8px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    padding-right: 10px;
+}
+
+.info-icon {
+    width: 14px;
+}
+
+.info-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-msg {
+    color: #6b7280;
+    font-size: 10px;
+    text-align: left;
+
+}

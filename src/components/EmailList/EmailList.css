@@ -1,0 +1,18 @@
+.email-skel {
+    height: 84px;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #f3f4f6 25%, #e5e7eb 37%, #f3f4f6 63%);
+    background-size: 400% 100%;
+    animation: email-skel-shimmer 1.2s ease-in-out infinite;
+    margin: 8px 0;
+    border: 1px solid #e5e7eb;
+}
+
+@keyframes email-skel-shimmer {
+    0% {
+        background-position: 100% 0;
+    }
+
+    100% {
+        background-position: 0 0;
+    } }
