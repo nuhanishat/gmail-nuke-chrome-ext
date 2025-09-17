@@ -1,8 +1,8 @@
 # Gmail Nuke 🚀  
 
-![MIT License](https://img.shields.io/badge/license-MIT-green.svg)  
+<!-- ![MIT License](https://img.shields.io/badge/license-MIT-green.svg)  
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)  
-![Made with React](https://img.shields.io/badge/Made%20with-React-61dafb.svg)  
+![Made with React](https://img.shields.io/badge/Made%20with-React-61dafb.svg)   -->
 
 Bulk-manage your Gmail inbox with a Chrome Extension.  
 Preview matching emails, then move them to Trash in one click — powered by Gmail API + React.
